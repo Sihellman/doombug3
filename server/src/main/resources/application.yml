@@ -1,3 +1,5 @@
 spring:
   mvc:
     dispatch-options-request: true
+STRIPE_SECRET_KEY: "sk_test_51If5WfAvUyzs1dkX4OidydSPFFj4acLAx3zgZ3l2qKy08P0cHuGG5zuhuPL4rOv9mkZAnhgSyogqX2C8hHX5gZ4Q00dLcKGpqB"
+baseURL: "http://localhost:8081/"

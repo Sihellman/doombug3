@@ -4,6 +4,7 @@ import './App.css';
 import Head from "./components/Head";
 import {Routes} from "./Routes";
 import Login from "./components/LoginPage";
+import Checkout from "./components/Checkout";
 
 const App = () => {
     const [user, setUser] = useState('');
@@ -20,6 +21,7 @@ const App = () => {
     return (
 
         <div className="App">
+            <Checkout/>
 
             <Head isLoggedIn={user !== ''} setUser={setUser} user={user} toggleLogInSignUp={toggleLogInSignUp}
                   setToggleLogInSignUp={setToggleLogInSignUp}/>
